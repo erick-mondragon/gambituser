@@ -2,8 +2,10 @@ package db
 
 import (
 	"fmt"
-	"gambituser/models"
-	"gambituser/tools"
+
+	"github.com/erick-mondragon/gambituser/models"
+	"github.com/erick-mondragon/gambituser/tools"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 func SignUp(sig models.SignUp) error {

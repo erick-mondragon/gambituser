@@ -3,9 +3,11 @@ package db
 import (
 	"database/sql"
 	"fmt"
-	"gambituser/models"
-	"gambituser/secretm"
 	"os"
+
+	"github.com/erick-mondragon/gambituser/models"
+	"github.com/erick-mondragon/gambituser/secretm"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 var SecretModel models.SecretRDSJson

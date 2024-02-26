@@ -4,10 +4,11 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"gambituser/awsgo"
-	"gambituser/db"
-	"gambituser/models"
 	"os"
+
+	"github.com/erick-mondragon/gambituser/awsgo"
+	"github.com/erick-mondragon/gambituser/db"
+	"github.com/erick-mondragon/gambituser/models"
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
